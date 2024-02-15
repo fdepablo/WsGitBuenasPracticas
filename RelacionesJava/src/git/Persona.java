@@ -3,7 +3,9 @@ import java.util.Arrays;
 
 public class Persona {
 	private String nombre;
-
+	private Direccion direccion;
+	private CuentaBancaria[] cuentasBancarias;
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -12,14 +14,26 @@ public class Persona {
 		this.nombre = nombre;
 	}
 
-	public void setCuentasBancarias(CuentaBancaria[] arrayCb1) {
-		// TODO Auto-generated method stub
-		
+	public Direccion getDireccion() {
+		return direccion;
 	}
 
-	public Object getCuentasBancarias() {
-		// TODO Auto-generated method stub
-		return null;
+	public void setDireccion(Direccion direccion) {
+		this.direccion = direccion;
+	}
+
+	public CuentaBancaria[] getCuentasBancarias() {
+		return cuentasBancarias;
+	}
+
+	public void setCuentasBancarias(CuentaBancaria[] cuentasBancarias) {
+		this.cuentasBancarias = cuentasBancarias;
+	}
+
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", direccion=" + direccion + ", cuentasBancarias="
+				+ Arrays.toString(cuentasBancarias) + "]";
 	}
 
 
