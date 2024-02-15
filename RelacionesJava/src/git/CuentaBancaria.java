@@ -1,6 +1,6 @@
 package git;
 
-public class cuentaBancaria {
+public class CuentaBancaria {
 	private String iban;
 	private double saldo;
 	public String getIban() {
@@ -15,7 +15,7 @@ public class cuentaBancaria {
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
-	public cuentaBancaria() {
+	public CuentaBancaria() {
 		super();
 	}
 	@Override
