@@ -4,6 +4,9 @@ public class MainGitBuenasPracticas {
 
 	public static void main(String[] args) {
 		System.out.println("Bienvenidos al proyecto");
+		Persona p1 = new Persona();
+		CuentaBancaria[] arrayCb1  = new CuentaBancaria[2];
+		p1.setCuentasBancarias(arrayCb1);
 
 	}
 

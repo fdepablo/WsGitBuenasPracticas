@@ -12,6 +12,16 @@ public class Persona {
 		this.nombre = nombre;
 	}
 
+	public void setCuentasBancarias(CuentaBancaria[] arrayCb1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object getCuentasBancarias() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 	
 }
